@@ -1,0 +1,179 @@
+:root {
+  --text-color-dark-mood: #fff;
+  --bg-color-dark-mood: #121212;
+  --shadow-dark: 0 0 15px rgba(255, 255, 255, 0.2);
+  --shadow-: 0 0 15px rgba(0, 0, 0, 0.2);
+  --hover-color: #037dd6;
+  --arshia: #24292E;
+  --arshia2: #F7F9FB;
+  --arshia3: #6A737D;
+  --footer-bg-dark-color: #24292e;
+}
+
+body {
+  font-family: "Euclid Circular B", sans-serif;
+  overflow-x: hidden;
+  --text-color-mood: #222222 ;
+  --bg-color-mood: #fff ;
+  --shadow- : 0 0 15px rgba(0, 0, 0, 0.2) ;
+  --hover-color : #037dd6;
+  --arshia-color : #24292e;
+  --footer-bg-color: rgb(233, 235, 238);
+  background: var(--bg-color-mood);
+}
+
+.Tdark {
+  --text-color-mood: var(--text-color-dark-mood);
+  --bg-color-mood: var(--bg-color-dark-mood);
+  --shadow-: var(--shadow-dark);
+  --hover-color: var(--text-color-dark-mood);
+  --footer-bg-color : var(--footer-bg-dark-color)
+}
+
+.main {
+  width: 100%;
+}
+
+.section0 {
+  padding: 0 150px;
+}
+
+.section1 {
+  background-color: var(--arshia);
+}
+
+.section2 {
+  background-color: var(--arshia2);
+  padding: 0 250px;
+}
+
+.section3 {
+  background-color: var(--arshia);
+  padding: 0 250px;
+}
+
+.section4 {
+  background-color: var(--arshia3);
+}
+
+.section5 {
+  background-color: var(--bg-color-mood);
+}
+
+svg {
+  overflow: visible;
+  width: 50%;
+  height: 50%;
+}
+
+.original-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 25px;
+  width: 240px;
+  height: 55px;
+  transition: 0.4s;
+  background-color: #037dd6;
+  margin: 25px 0;
+}
+.original-button:hover {
+  opacity: 0.7;
+}
+
+.original-button2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 25px;
+  width: 100px;
+  height: 55px;
+  transition: 0.4s;
+  background-color: #037dd6;
+  margin: 25px 0;
+}
+.original-button2:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 768px) {
+  .section0 {
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section2 {
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section3 {
+    padding: 0 5px;
+  }
+}
+.sec3btn:hover {
+  color: var(--hover-color) !important;
+  opacity: 0.8;
+}
+
+.Shbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 20px;
+  width: 200px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  transition: 0.6s;
+}
+.Shbutton:hover {
+  border: 1px solid #037dd6;
+  color: #037dd6;
+}
+
+h6 {
+  color: rgb(246, 133, 27)!important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footerLogo {
+  width: 170px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: var(--footer-bg-color);
+}
+
+.footer-link {
+  color: var(--text-color-mood)!important;
+  font-size: 12px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.footer-link:hover {
+  color: #037dd6;
+  opacity: 0.8;
+}
+
+.chrom {
+  width: 20%;
+  transform: translateY(8px);
+  margin-left: 5px;
+}
+
+.matn {
+  font-weight: 600;
+}/*# sourceMappingURL=master.css.map */
