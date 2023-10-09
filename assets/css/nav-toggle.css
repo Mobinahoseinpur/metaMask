@@ -1,0 +1,188 @@
+
+  .btn-toggle.btn-sm {
+    margin: 0 0.5rem;
+    padding: 0;
+    position: relative;
+    border: none;
+    height: 1.5rem;
+    width: 3rem;
+    border-radius: 1.5rem;
+  }
+
+  .btn-toggle.btn-sm:before,
+  .btn-toggle.btn-sm:after {
+    content: ' ';
+    line-height: 1.5rem;
+    width: 0.5rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.55rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 0;
+    transition: opacity 0.25s;
+  }
+  /* ======================================================================== */
+  .btn-toggle.btn-sm:before {
+
+      background: url('../images/moon.svg')no-repeat;
+      width: 1px;
+      height: 20px;
+      /* float: right; */
+      right: 8px;
+      top: 6px;
+    }
+    .btn-toggle.btn-sm:after {
+      background: url('../images/sun.svg') no-repeat ;
+    width: 1px;
+    height: 20px;
+    /* right: -0.5rem; */
+    left: 8px;
+    top: 6px;
+    opacity: 0.5;
+  }
+  .btn-toggle.btn-sm > .handle {
+    position: absolute;
+    top: 0.1875rem;
+    left: 0.1875rem;
+    width: 1.125rem;
+    height: 1.125rem;
+    border-radius: 1.125rem;
+    background: #fff;
+    transition: left 0.25s;
+  }
+  .btn-toggle.btn-sm.active {
+    transition: background-color 0.25s;
+  }
+  .btn-toggle.btn-sm.active > .handle {
+    left: 1.6875rem;
+    transition: left 0.25s;
+  }
+  .btn-toggle.btn-sm.active:before {
+    opacity: 0.5;
+  }
+  .btn-toggle.btn-sm.active:after {
+    opacity: 1;
+  }
+  .btn-toggle.btn-sm.btn-sm:before,
+  .btn-toggle.btn-sm.btn-sm:after {
+    line-height: -0.5rem;
+    color: #fff;
+    letter-spacing: 0.75px;
+    /* left: 20px; */
+    /* left: 0.4125rem; */
+    /* width: 2.325rem; */
+    width: 10px;
+  }
+  .btn-toggle.btn-sm.btn-sm:before {
+    text-align: right;
+  }
+  .btn-toggle.btn-sm.btn-sm:after {
+    text-align: left;
+    opacity: 0;
+  }
+  .btn-toggle.btn-sm.btn-sm.active:before {
+    opacity: 0;
+  }
+  .btn-toggle.btn-sm.btn-sm.active:after {
+    opacity: 1;
+  }
+  .btn-toggle.btn-sm.btn-xs:before,
+  .btn-toggle.btn-sm.btn-xs:after {
+    display: none;
+  }
+  .btn-toggle.btn-xs {
+    margin: 0 0;
+    padding: 0;
+    position: relative;
+    border: none;
+    height: 1rem;
+    width: 2rem;
+    border-radius: 1rem;
+  }
+
+  .btn-toggle.btn-xs:before,
+  .btn-toggle.btn-xs:after {
+    line-height: 1rem;
+    width: 0;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 0;
+    transition: opacity 0.25s;
+  }
+  .btn-toggle.btn-xs:before {
+    content: 'Off';
+    left: 0;
+  }
+  .btn-toggle.btn-xs:after {
+    content: 'On';
+    right: 0;
+    opacity: 0.5;
+  }
+  .btn-toggle.btn-xs > .handle {
+    position: absolute;
+    top: 0.125rem;
+    left: 0.125rem;
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 0.75rem;
+    background: #fff;
+    transition: left 0.25s;
+  }
+  .btn-toggle.btn-xs.active {
+    transition: background-color 0.25s;
+  }
+  .btn-toggle.btn-xs.active > .handle {
+    left: 1.125rem;
+    transition: left 0.25s;
+  }
+  .btn-toggle.btn-xs.active:before {
+    opacity: 0.5;
+  }
+  .btn-toggle.btn-xs.active:after {
+    opacity: 1;
+  }
+  .btn-toggle.btn-xs.btn-sm:before,
+  .btn-toggle.btn-xs.btn-sm:after {
+    line-height: -1rem;
+    color: #fff;
+    letter-spacing: 0.75px;
+    left: 0.275rem;
+    width: 1.55rem;
+  }
+  .btn-toggle.btn-xs.btn-sm:before {
+    text-align: right;
+  }
+  .btn-toggle.btn-xs.btn-sm:after {
+    text-align: left;
+    opacity: 0;
+  }
+  .btn-toggle.btn-xs.btn-sm.active:before {
+    opacity: 0;
+  }
+  .btn-toggle.btn-xs.btn-sm.active:after {
+    opacity: 1;
+  }
+  .btn-toggle.btn-xs.btn-xs:before,
+  .btn-toggle.btn-xs.btn-xs:after {
+    display: none;
+  }
+  .btn-toggle.btn-secondary {
+    color: #6b7381;
+    background: #000;
+  }
+  .btn-toggle.btn-secondary:hover{
+    background:#4e5a6c !important ;
+  }
+  .btn-toggle.btn-secondary:before,
+  .btn-toggle.btn-secondary:after {
+    color: #6b7381;
+  }
+  .btn-toggle.btn-secondary.active {
+    background-color: #ff8300;
+  }
